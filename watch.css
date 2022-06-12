@@ -1,0 +1,208 @@
+:root {
+  --bandcolor: red;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.head {
+  width: 100%;
+  height: 90px;
+  background-color: #232f3e;
+  text-align: center;
+}
+.amazon-logo {
+  width: 10%;
+  height: 100%;
+}
+
+/* left side */
+
+.main-class {
+  width: 100%;
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.watch-screen {
+  width: 200px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#imgscreen {
+  width: 450px;
+  height: 400px;
+  margin-top: 30px;
+  position: relative;
+}
+@keyframes dill {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.3);
+  }
+  60% {
+    transform: scale(1.2);
+  }
+  80% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.heart {
+  width: 90px;
+  height: 90px;
+  bottom: 45%;
+  position: absolute;
+  animation: dill 1s linear infinite;
+  display: none;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+
+.heartratecount {
+  color: white;
+  font-weight: 800;
+  font-size: 25px;
+  top: 57%;
+  position: absolute;
+}
+
+.localtime {
+  height: 100px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 20px;
+  position: absolute;
+  top: 51%;
+}
+
+/* right side  */
+
+.rightclass {
+  margin-left: -50px;
+  z-index: 999;
+}
+.rightclass h3 {
+  margin-bottom: 10px;
+}
+.featname {
+  margin-top: 30px;
+}
+
+.topic {
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  font-size: 40px;
+}
+
+.watch-info {
+  margin-bottom: 20px;
+}
+
+/* color  */
+
+.color-box {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+}
+.blackcolor {
+  width: 60px;
+  height: 40px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.orangecolor {
+  width: 60px;
+  height: 40px;
+  background-color: rgb(241, 65, 11);
+  border-radius: 10px;
+}
+.purplecolor {
+  width: 60px;
+  height: 40px;
+  background-color: rgb(172, 90, 172);
+  border-radius: 10px;
+}
+
+.graycolor {
+  width: 60px;
+  height: 40px;
+  background-color: rgb(180, 178, 209);
+  border-radius: 10px;
+}
+.pink {
+  width: 60px;
+  height: 40px;
+  background-color: rgba(247, 162, 241, 0.911);
+  border-radius: 10px;
+}
+
+.blackcolor:hover,
+.orangecolor:hover,
+.purplecolor:hover,
+.graycolor:hover,
+.pink:hover {
+  box-shadow: 2px 3px 5px 2px grey;
+  transition: all 2sec linear;
+}
+
+/* feature  */
+
+.features {
+  display: flex;
+  justify-content: left;
+  gap: 15px;
+}
+
+.time-btn,
+.heart-btn {
+  padding: 4px 7px;
+  background-color: rgba(216, 216, 216, 0.952);
+  border: none;
+  border-radius: 5px;
+  font-size: small;
+}
+
+.time-btn:hover,
+.heart-btn:hover {
+  box-shadow: 2px 3px 5px 2px grey;
+  transition: all 2sec linear;
+}
+
+.buy-btn {
+  padding: 5px 10px;
+  background-color: orange;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.buy-btn:hover {
+  box-shadow: 2px 3px 5px 2px grey;
+  transition: all 2sec linear;
+}
+
+/* time */
